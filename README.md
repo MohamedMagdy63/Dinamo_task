@@ -1,6 +1,6 @@
 # AN ERD for the project
 https://www.figma.com/board/jUEqeFgbZV9Op1K1AmVdJv/Dinamo?node-id=0-1&t=bcR4Py40vcmNCcxi-1  
-
+# Approach for End-Points APIs
 # Products
 - GET /products - List all products
 - GET /products/:id - Get a specific product
