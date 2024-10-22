@@ -6,6 +6,7 @@ import { ProductModule } from './products/products.module';
 import { CategoryModule } from './categories/categories.module';
 import { VendorModule } from './vendors/vendors.module';
 import { CartsModule } from './carts/carts.module';
+import { CartItemsModule } from './cartItems/cartItems.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { CartsModule } from './carts/carts.module';
     CategoryModule,
     VendorModule,
     CartsModule,
+    CartItemsModule,
   ],
   controllers: [],
   providers: [AppService],

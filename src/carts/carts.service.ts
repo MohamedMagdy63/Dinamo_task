@@ -9,10 +9,10 @@ export class CartServices{
     constructor(@InjectModel(Cart.name) private cartModal: Model<Cart>) {}
     
     async addInCart(createCartDto: CreateCartDto){
-        const newProduct = new this.cartModal({
+        const newCart = new this.cartModal({
             ...createCartDto,
         })
-        return newProduct.save()
+        return newCart.save()
     }
 
     async getProductsFromCards(){

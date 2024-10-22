@@ -13,7 +13,7 @@ export class ProductController {
     }
 
     @Get()
-    getProducts(){
+    async getProducts(){
         return this.productService.getProducts()
     }
 }
