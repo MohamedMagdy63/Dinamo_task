@@ -27,4 +27,11 @@ https://www.figma.com/board/jUEqeFgbZV9Op1K1AmVdJv/Dinamo?node-id=0-1&t=bcR4Py40
 - POST /cart/items - Add an item to the cart
 - PUT /cart/items/:id - Update an item in the cart
 - DELETE /cart/items/:id - Remove an item from the cart
-- POST /cart/checkout - Process the cart checkout
+- POST /cart/checkout - Process the cart 
+
+# The Authentication Solutions are:
+- I will use Authentication Methods such
+- JWT (JSON Web Token) for stateless API authentication 
+- OAuth2 for Login with third-party applications
+    .  passport-google-oauth20
+    .  passport-github
