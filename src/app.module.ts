@@ -5,6 +5,7 @@ import { UsersModule } from './users/users.module';
 import { ProductModule } from './products/products.module';
 import { CategoryModule } from './categories/categories.module';
 import { VendorModule } from './vendors/vendors.module';
+import { CartsModule } from './carts/carts.module';
 
 @Module({
   imports: [
@@ -14,7 +15,8 @@ import { VendorModule } from './vendors/vendors.module';
     UsersModule,
     ProductModule,
     CategoryModule,
-    VendorModule
+    VendorModule,
+    CartsModule,
   ],
   controllers: [],
   providers: [AppService],
